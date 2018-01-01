@@ -1,21 +1,23 @@
 {
-  "name": "adonis-fullstack-app",
-  "version": "4.0.0",
+  "name": "smartdex-api",
+  "version": "1.0.0",
   "adonis-version": "4.0.0",
-  "description": "The fullstack application boilerplate for Adonisjs",
+  "description": "SmartDEX API",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node ace test"
+    "test": "node ace test",
+    "precommit": "lint-staged"
   },
   "keywords": [
-    "adonisjs",
-    "adonis-app"
+    "decentralized",
+    "exchange"
   ],
-  "author": "",
+  "author": "github/ExistentialPrime",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "0x.js": "0.29.0",
     "@adonisjs/ace": "^4.0.7",
     "@adonisjs/auth": "^2.0.10",
     "@adonisjs/bodyparser": "^2.0.0",
@@ -25,10 +27,23 @@
     "@adonisjs/ignitor": "^1.0.14",
     "@adonisjs/lucid": "^4.0.24",
     "@adonisjs/session": "^1.0.19",
-    "@adonisjs/shield": "^1.0.4"
+    "@adonisjs/shield": "^1.0.4",
+    "@adonisjs/validator": "^4.0.8",
+    "bignumber.js": "^5.0.0",
+    "moment": "^2.20.1",
+    "pg": "^7.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "lint-staged": "~6.0.0",
+    "prettier": "~1.9.2"
+  },
   "autoload": {
     "App": "./app"
+  },
+  "lint-staged": {
+    "*.{js,json,css,scss}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
