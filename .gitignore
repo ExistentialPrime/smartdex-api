@@ -15,4 +15,7 @@ vs.lock
 # The development sqlite file
 database/development.sqlite
 
+# VS Code editor config local
+.editorconfig
+
 
