@@ -29,7 +29,7 @@
     "@adonisjs/session": "^1.0.19",
     "@adonisjs/shield": "^1.0.4",
     "@adonisjs/validator": "^4.0.8",
-    "bignumber.js": "^5.0.0",
+    "bignumber.js": "~5.0.0",
     "moment": "^2.20.1",
     "pg": "^7.4.0"
   },

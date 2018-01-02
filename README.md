@@ -13,7 +13,6 @@ The backend API for the SmartDEX decentralized Exchange
  - `npm install`
  - Start up PostgressSQL
  - `adonis migration:run` - create db tables via Migrations
- - Optional: Stand up dummy data via `adonis seed`
  - `adonis serve --dev` - start local server
 
 

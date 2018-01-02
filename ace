@@ -11,6 +11,7 @@
 | Also you can use `adonis` followed by the command name, since the adonis
 | global proxy all the ace commands.
 |
+|
 */
 
 const { Ignitor } = require('@adonisjs/ignitor')
