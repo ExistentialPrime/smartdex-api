@@ -10,6 +10,9 @@ tmp
 # Lock files
 package-lock.json
 yarn.lock
+vs.lock
 
 # The development sqlite file
 database/development.sqlite
+
+
