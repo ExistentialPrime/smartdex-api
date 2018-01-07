@@ -1,6 +1,6 @@
 {
   "name": "smartdex-api",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "adonis-version": "4.0.0",
   "description": "SmartDEX API",
   "main": "index.js",

@@ -27,8 +27,8 @@ class AccountsController {
   // -------------------------------------------------
   async transactions({ params, response }) {
     return await Transaction.query()
-      .where("maker", params.id)
-      .orWhere("taker", params.id)
+			.where("taker", params.id)
+      .orWhere("maker", params.id)
       .fetch();
   }
 }

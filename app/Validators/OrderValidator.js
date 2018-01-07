@@ -1,7 +1,7 @@
 'use strict'
+const Validator = use('Validator')
 const Order = use('App/Models/Order')
 const Transaction = use('App/Models/Transaction')
-const Validator = use('Validator')
 
 const messages = {
   'sell_currency.required': 'Please specify the token for sale.',

@@ -6,7 +6,7 @@
 |--------------------------------------------------------------------------
 |
 | This file bootstrap Adonisjs to start the HTTP server. You are free to
-| customize the process of booting the http server.
+| customize the process of booting the http server!
 |
 | """ Loading ace commands """
 |     At times you may want to load ace commands when starting the HTTP server.

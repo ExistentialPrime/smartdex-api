@@ -1,8 +1,8 @@
 'use strict'
-const Order = use('App/Models/Order')
-const Transaction = use('App/Models/Transaction')
-const OrderValidator = use('App/Validators/OrderValidator')
 const BigNumber = require('bignumber.js')
+const Order = use('App/Models/Order')
+const OrderValidator = use('App/Validators/OrderValidator')
+const Transaction = use('App/Models/Transaction')
 
 class OrdersController {
   // GET /orders

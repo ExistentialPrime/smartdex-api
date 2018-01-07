@@ -17,5 +17,6 @@ database/development.sqlite
 
 # VS Code editor config local
 .editorconfig
+.vscode/
 
 

@@ -1,6 +1,6 @@
 # SmartDEX API
 
-The backend API for the SmartDEX decentralized Exchange
+The backend API for the SmartDEX decentralized Exchange. Built using AdonisJS and REST principles.
 
 ## Requirements
 
